@@ -1,0 +1,29 @@
+#include <iostream>
+#include<math.h>
+//#iclude <conio.h>
+//#include <stdio.h>
+using namespace std;
+main() {
+	int a,b,c,d; 
+	cout<<" Leer 20 n�meros y encontrar el mayor y el menor valor le�dos. "<< endl;
+	cout<<"ingrese numero \n";
+	cin>>a;
+	b=a;
+	c=a;
+	int i=0;	
+	while (i<=19){
+		cout<<"ingrese numero";
+		cin>>a;
+		if (a<b){
+			b=a;//menor
+		}
+		if (a>c){
+			c=a;//mayor
+		}	
+		i=i+1;				
+	}
+	cout<<" el nuero mayor es  = "<<c<<"    el numero menor es "<<b<<endl;
+	system ("pause");
+return 0;
+}
+	
